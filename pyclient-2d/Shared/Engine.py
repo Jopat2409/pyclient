@@ -12,7 +12,7 @@ class Engine:
                  ms_per_tick: Number = 15,
                  should_render: bool = True):
         """
-        Creates an instance of the main Engine used to power pyclient
+        Creates an instance of the main Engine used to power pyclient-2d
         :param ms_per_tick: Number of ms per game-tick
         :param should_render: Should this instance of the engine actually render anything?
         """
