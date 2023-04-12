@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['pygame', 'socket'],
+    install_requires=['pygame'],
     keywords=['python', 'game', 'client', 'server', 'engine'],
     classifiers=[
         "Development Status :: 1 - Planning",
