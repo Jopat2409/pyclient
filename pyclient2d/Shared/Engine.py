@@ -47,8 +47,9 @@ class Engine:
         while self.__running:
             current_time = get_system_time()
             lag += time_between(prev_time, current_time)
-            while lag <= self.__ms_per_tick:
+            while lag >= self.__ms_per_tick:
                 self.update()
+                lag -= self.__ms_per_tick
                 updates += 1
                 if self.__tickbase % int(self.__tickrate) == 0:
                     print(f"Frames: {frames}")

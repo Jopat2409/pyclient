@@ -1,1 +1,1 @@
-from Server import Server
+from pyclient2d.Server.Server import Server
