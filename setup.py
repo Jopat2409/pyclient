@@ -16,6 +16,7 @@ setup(
     version=VERNUM,
     author="Jopat2409",
     author_email="joantpat@gmail.com",
+    url="https://github.com/Jopat2409/pyclient2d",
     description=DESC,
     long_description_content_type="text/markdown",
     long_description=long_description,
