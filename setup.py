@@ -8,7 +8,7 @@ c_dir = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(c_dir, "README.md"), encoding='utf-8') as ld:
     long_description = "\n" + ld.read()
 
-VERNUM = '0.0.3'
+VERNUM = '0.0.1'
 DESC = 'Encapsulating game server and client into one package'
 
 setup(
