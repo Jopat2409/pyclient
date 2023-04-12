@@ -12,7 +12,7 @@ VERNUM = '0.0.1'
 DESC = 'Encapsulating game server and client into one package'
 
 setup(
-    name='pyclient-2d-2d',
+    name='pyclient-2d',
     version=VERNUM,
     author="Jopat2409",
     author_email="joantpat@gmail.com",
